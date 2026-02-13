@@ -1,0 +1,17 @@
+// This is a comment
+int main() {
+    int x = 10;
+    float y = 3.14;
+    
+    /* Multi-line
+       comment */
+    
+    if (x > 5) {
+        y = x + 2.5;
+    } else {
+        y = x - 1;
+    }
+    
+    char name[] = "test";
+    return 0;
+}
